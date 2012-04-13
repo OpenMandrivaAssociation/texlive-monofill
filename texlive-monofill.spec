@@ -1,11 +1,11 @@
-# revision 25713
+# revision 25780
 # category Package
 # catalog-ctan /macros/latex/contrib/monofill
-# catalog-date 2012-03-20 11:18:27 +0100
+# catalog-date 2012-03-29 17:25:27 +0200
 # catalog-license lppl1.3
-# catalog-version 0.1
+# catalog-version 0.1a
 Name:		texlive-monofill
-Version:	0.1
+Version:	0.1a
 Release:	1
 Summary:	Alignment of plain text
 Group:		Publishing

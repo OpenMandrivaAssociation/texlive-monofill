@@ -1,11 +1,11 @@
-# revision 25780
+# revision 28140
 # category Package
 # catalog-ctan /macros/latex/contrib/monofill
-# catalog-date 2012-03-29 17:25:27 +0200
+# catalog-date 2012-10-31 16:32:17 +0100
 # catalog-license lppl1.3
-# catalog-version 0.1a
+# catalog-version 0.2
 Name:		texlive-monofill
-Version:	0.1a
+Version:	0.2
 Release:	1
 Summary:	Alignment of plain text
 Group:		Publishing
@@ -34,8 +34,11 @@ Uses may include in-text tables, or even code listings.
 
 #-----------------------------------------------------------------------
 %files
+%{_texmfdistdir}/tex/latex/monofill/monofill.RLS
 %{_texmfdistdir}/tex/latex/monofill/monofill.sty
+%doc %{_texmfdistdir}/doc/latex/monofill/Announce.txt
 %doc %{_texmfdistdir}/doc/latex/monofill/README
+%doc %{_texmfdistdir}/doc/latex/monofill/SrcFILEs.txt
 %doc %{_texmfdistdir}/doc/latex/monofill/monofill.pdf
 #- source
 %doc %{_texmfdistdir}/source/latex/monofill/monofill.tex
@@ -50,15 +53,3 @@ Uses may include in-text tables, or even code listings.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1a-1
-+ Revision: 790683
-- Update to latest release.
-
-* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1-1
-+ Revision: 787690
-- Import texlive-monofill
-- Import texlive-monofill
-

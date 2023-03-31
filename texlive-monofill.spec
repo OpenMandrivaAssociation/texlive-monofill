@@ -1,6 +1,6 @@
 Name:		texlive-monofill
 Version:	28140
-Release:	1
+Release:	2
 Summary:	Alignment of plain text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/monofill

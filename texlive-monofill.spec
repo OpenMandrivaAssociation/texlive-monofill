@@ -3,7 +3,7 @@ Version:	28140
 Release:	2
 Summary:	Alignment of plain text
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/monofill
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/monofill
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/monofill.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/monofill.doc.r%{version}.tar.xz
